@@ -1,16 +1,20 @@
-= Rshell, the recorded shell =
+Rshell, the recorded shell
+==========================
 
-== About ==
+About
+-----
 
 Rshell is a recorded shell based on TTYRec. It saves the output of the console,
 and allows to track what your users have been changing by auditing their root
 sessions.
 
-= Dependencies ==
+Dependencies
+------------
 
 ttyrec, bash or zsh
 
-== Install ==
+Install
+-------
 
 1. As root, create a directory named /var/log/ttyrec:
     mkdir -pv /var/log/ttyrec
