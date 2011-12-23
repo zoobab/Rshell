@@ -22,4 +22,9 @@ Install
 2. Copy rshell to somewhere in your path (in this example, /usr/local/bin/):
     cp -v rshell /usr/local/bin/
 
-To Be Continued
+
+Todo
+----
+
+1. Make an /etc/rshell/rshell.conf config file
+2. Add the sudoers config
