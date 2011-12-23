@@ -6,7 +6,8 @@ About
 
 Rshell is a recorded shell based on TTYRec. It saves the output of the console,
 and allows to track what your users have been changing by auditing their root
-sessions.
+sessions. It is useful for auditing what other people who have root access have
+done on the system.
 
 Dependencies
 ------------
@@ -21,6 +22,8 @@ Install
 
 2. Copy rshell to somewhere in your path (in this example, /usr/local/bin/):
     cp -v rshell /usr/local/bin/
+
+3. Add a sudo user who will be able to obtain a root shell via "sudo rshell"
 
 
 Todo
