@@ -1,0 +1,10 @@
+#!/bin/bash
+if [[ $SHELL == "/bin/bash" ]];
+then
+  /usr/bin/ttyrec -e "/bin/bash --rcfile /root/.bashrc" /var/log/ttyrec/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
+fi
+
+if [[ $SHELL == "/usr/bin/zsh" ]];
+then
+  /usr/bin/ttyrec -e "/usr/bin/zsh" /var/log/ttyrec/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
+fi
