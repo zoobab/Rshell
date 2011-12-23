@@ -28,6 +28,7 @@ Todo
 
 1. Make an /etc/rshell/rshell.conf config file
 2. Add the sudoers config
+3. Make a web interface which allows you to replay easily the ttyrec sessions
 
 Screenshot
 ----------
