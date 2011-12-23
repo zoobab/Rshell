@@ -1,10 +1,12 @@
 #!/bin/bash
-if [[ $SHELL == "/bin/bash" ]];
+source /etc/rshell/rshell.conf
+
+if [[ $SHELL == $BIN_BASH ]];
 then
-  /usr/bin/ttyrec -e "/bin/bash --rcfile /root/.bashrc" /var/log/ttyrec/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
+  $BIN_TTYREC -e "$BIN_BASH --rcfile $DOTBASHRC" $LOGDIR/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
 fi
 
-if [[ $SHELL == "/usr/bin/zsh" ]];
+if [[ $SHELL == $BIN_ZSH ]];
 then
-  /usr/bin/ttyrec -e "/usr/bin/zsh" /var/log/ttyrec/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
+  $BIN_TTYREC -e  $ZSH_BIN $LOGDIR/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
 fi
