@@ -17,12 +17,8 @@ ttyrec, date, bash or zsh
 Install
 -------
 
-1. As root, create a directory named /var/log/ttyrec:
-    mkdir -pv /var/log/ttyrec
-
-2. Copy rshell to somewhere in your path (in this example, /usr/local/bin/):
-    cp -v rshell /usr/local/bin/
-
+1. As root, create a directory named /var/log/ttyrec
+2. Copy rshell to somewhere in your path (in this example, /usr/local/bin/)
 3. Add a sudo user who will be able to obtain a root shell via "sudo rshell"
 
 
@@ -32,6 +28,7 @@ Todo
 1. Make an /etc/rshell/rshell.conf config file
 2. Add the sudoers config
 3. Make a web interface which allows you to replay easily the ttyrec sessions
+4. Convert the .ttyrec files to video
 
 Screenshot
 ----------
