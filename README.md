@@ -56,3 +56,9 @@ Screenshot
     ps aux
     12:16 root@machina /var/log/ttyrec# exit
     12:16 zoobab@machina ~%
+
+Links
+-----
+
+* Creating screencast video tutorials for the web: http://aplawrence.com/Girish/gv-screencast.html
+* TTYRec homepage: http://0xcc.net/ttyrec/
