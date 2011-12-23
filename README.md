@@ -11,7 +11,7 @@ sessions.
 Dependencies
 ------------
 
-ttyrec, bash or zsh
+ttyrec, date, bash or zsh
 
 Install
 -------
