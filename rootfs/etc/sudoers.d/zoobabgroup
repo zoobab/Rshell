@@ -1,0 +1,3 @@
+Defaults logfile=/var/log/ttyrec/sudolog
+Cmnd_Alias      RSHELL = /usr/local/bin/rshell
+zoobab ALL=(root) RSHELL
