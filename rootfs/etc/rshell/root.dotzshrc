@@ -1,0 +1,9 @@
+PS1='\[\033[35;1m\]\u\[\033[0m\]@\[\033[31;1m\]\h \[\033[32;1m\]$PWD\[\033[0m\] [\[\033[35m\]\#\[\033[0m\]]\[\033[31m\]\$\[\033[0m\] '
+alias u="cd .."
+alias ll="ls -lA --color=yes"
+alias l="ls -l --color=yes "
+HISTTIMEFORMAT='%F %T '
+export HISTTIMEFORMAT
+HISTFILESIZE=1000000000
+HISTSIZE=1000000
+export HISTFILE=/var/log/ttyrec/`date +%Y%m%d_%H%M%S`-`echo $USER`.hist
