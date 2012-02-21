@@ -3,7 +3,7 @@ source /etc/rshell/rshell.conf
 
 if [[ $SHELL == $BIN_BASH ]];
 then
-  $BIN_TTYREC -e "$BIN_BASH --rcfile $DOTBASHRC" $LOGDIR/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
+  $BIN_TTYREC -e "$BIN_BASH --rcfile $BASHRC" $LOGDIR/`date +%Y%m%d_%H%M%S`-`echo $USER`.ttyrec
 fi
 
 if [[ $SHELL == $BIN_ZSH ]];

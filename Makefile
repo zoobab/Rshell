@@ -1,2 +1,2 @@
 install:
-	cd rootfs/; cp -rv . /
+	cd rootfs/; cp -rv ./ /
